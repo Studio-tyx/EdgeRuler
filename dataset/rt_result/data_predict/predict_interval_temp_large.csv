@@ -1,0 +1,316 @@
+model range: time >= '2017-04-28 08:06:00.000' AND time < '2017-04-28 08:14:00.000'
+model size: 450, modeling cost: 3.535098075866699
+test range: 2017-04-28 08:14:00.000-2017-04-28 08:17:00.000, predict horizon:5
+error: 2.328247978436663, accuracy: 0.7777777777777778
+
+
+model range: time >= '2017-04-28 08:10:30.000' AND time < '2017-04-28 08:14:00.000'
+model size: 198, modeling cost: 0.31091952323913574
+test range: 2017-04-28 08:14:00.000-2017-04-28 08:17:00.000, predict horizon:5
+error: 2.2781337047353745, accuracy: 0.7222222222222222
+
+
+model range: time >= '2017-04-28 08:00:00.000' AND time < '2017-04-28 08:06:00.000'
+model size: 339, modeling cost: 1.5149757862091064
+test range: 2017-04-28 08:14:00.000-2017-04-28 08:17:00.000, predict horizon:5
+error: 3.662634146341439, accuracy: 0.5833333333333334
+
+
+=============================================================
+
+
+
+model range: time >= '2017-04-28 08:09:00.000' AND time < '2017-04-28 08:13:00.000'
+model size: 226, modeling cost: 0.46405768394470215
+test range: 2017-04-28 08:13:00.000-2017-04-28 08:19:00.000, predict horizon:5
+error: 4.86377291105122, accuracy: 0.7638888888888888
+
+
+model range: time >= '2017-04-28 08:10:30.000' AND time < '2017-04-28 08:13:00.000'
+model size: 142, modeling cost: 0.11975955963134766
+test range: 2017-04-28 08:13:00.000-2017-04-28 08:19:00.000, predict horizon:5
+error: 4.75264902506963, accuracy: 0.7361111111111112
+
+
+model range: time >= '2017-04-28 08:04:30.000' AND time < '2017-04-28 08:09:00.000'
+model size: 252, modeling cost: 0.6129491329193115
+test range: 2017-04-28 08:13:00.000-2017-04-28 08:19:00.000, predict horizon:5
+error: 5.990534494306728, accuracy: 0.6944444444444444
+
+
+=============================================================
+
+
+
+model range: time >= '2017-04-28 10:57:00.000' AND time < '2017-04-28 11:04:00.000'
+model size: 394, modeling cost: 2.292022705078125
+test range: 2017-04-28 11:04:00.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 1.4008369322412555, accuracy: 0.9833333333333333
+
+
+model range: time >= '2017-04-28 10:59:00.000' AND time < '2017-04-28 11:04:00.000'
+model size: 282, modeling cost: 0.820528507232666
+test range: 2017-04-28 11:04:00.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 1.4009127516778577, accuracy: 0.9833333333333333
+
+
+model range: time >= '2017-04-28 10:50:30.000' AND time < '2017-04-28 10:57:00.000'
+model size: 366, modeling cost: 1.7931947708129883
+test range: 2017-04-28 11:04:00.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 1.3946630036630077, accuracy: 1.0
+
+
+=============================================================
+
+
+
+model range: time >= '2017-04-28 10:57:00.000' AND time < '2017-04-28 11:01:46.000'
+model size: 268, modeling cost: 0.7595691680908203
+test range: 2017-04-28 11:06:11.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 0.6224959046909874, accuracy: 1.0
+
+
+model range: time >= '2017-04-28 10:59:00.000' AND time < '2017-04-28 11:01:46.000'
+model size: 156, modeling cost: 0.18625664710998535
+test range: 2017-04-28 11:06:11.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 0.622460850111856, accuracy: 1.0
+
+
+model range: time >= '2017-04-28 10:50:30.000' AND time < '2017-04-28 10:57:00.000'
+model size: 366, modeling cost: 1.971015453338623
+test range: 2017-04-28 11:06:11.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 0.6267289377289359, accuracy: 1.0
+
+
+=============================================================
+
+
+
+model range: time >= '2017-04-28 10:57:00.000' AND time < '2017-04-28 11:01:46.000'
+model size: 268, modeling cost: 0.7123012542724609
+test range: 2017-04-28 11:06:11.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 0.6224959046909874, accuracy: 1.0
+
+
+model range: time >= '2017-04-28 10:59:00.000' AND time < '2017-04-28 11:01:46.000'
+model size: 156, modeling cost: 0.16060161590576172
+test range: 2017-04-28 11:06:11.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 0.622460850111856, accuracy: 1.0
+
+
+model range: time >= '2017-04-28 10:50:00.000' AND time < '2017-04-28 10:57:00.000'
+model size: 394, modeling cost: 2.1862523555755615
+test range: 2017-04-28 11:06:11.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 0.6267289377289359, accuracy: 1.0
+
+
+=============================================================
+
+
+
+model range: time >= '2017-04-28 10:57:00.000' AND time < '2017-04-28 11:01:46.000'
+model size: 268, modeling cost: 0.7141387462615967
+test range: 2017-04-28 11:06:11.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 0.6224959046909874, accuracy: 1.0
+
+
+model range: time >= '2017-04-28 10:59:00.000' AND time < '2017-04-28 11:01:46.000'
+model size: 156, modeling cost: 0.1477336883544922
+test range: 2017-04-28 11:06:11.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 0.622460850111856, accuracy: 1.0
+
+
+model range: time >= '2017-04-28 10:43:00.000' AND time < '2017-04-28 10:57:00.000'
+model size: 787, modeling cost: 17.843873023986816
+test range: 2017-04-28 11:06:11.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 0.6202394067796618, accuracy: 1.0
+
+
+=============================================================
+
+
+
+model range: time >= '2017-04-28 10:53:47.000' AND time < '2017-04-28 11:01:46.000'
+model size: 449, modeling cost: 5.1927490234375
+test range: 2017-04-28 11:06:11.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 0.6417525399129232, accuracy: 1.0
+
+
+model range: time >= '2017-04-28 10:59:00.000' AND time < '2017-04-28 11:01:46.000'
+model size: 156, modeling cost: 0.1540982723236084
+test range: 2017-04-28 11:06:11.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 0.622460850111856, accuracy: 1.0
+
+
+model range: time >= '2017-04-28 10:43:00.000' AND time < '2017-04-28 10:57:00.000'
+model size: 787, modeling cost: 21.396670818328857
+test range: 2017-04-28 11:06:11.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 0.6202394067796618, accuracy: 1.0
+
+
+=============================================================
+
+
+
+model range: time >= '2017-04-28 10:53:47.000' AND time < '2017-04-28 11:01:46.000'
+model size: 449, modeling cost: 3.3173184394836426
+test range: 2017-04-28 11:06:11.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 0.6417525399129232, accuracy: 1.0
+
+
+model range: time >= '2017-04-28 10:59:00.000' AND time < '2017-04-28 11:01:46.000'
+model size: 156, modeling cost: 0.15072298049926758
+test range: 2017-04-28 11:06:11.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 0.622460850111856, accuracy: 1.0
+
+
+model range: time >= '2017-04-28 10:43:00.000' AND time < '2017-04-28 10:53:47.000'
+model size: 606, modeling cost: 8.133610010147095
+test range: 2017-04-28 11:06:11.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 0.6202394067796618, accuracy: 1.0
+
+
+=============================================================
+
+
+
+model range: time >= '2017-04-28 10:53:47.000' AND time < '2017-04-28 11:01:46.000'
+model size: 449, modeling cost: 3.214404582977295
+test range: 2017-04-28 11:06:11.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 0.6417525399129232, accuracy: 1.0
+
+
+model range: time >= '2017-04-28 10:59:00.000' AND time < '2017-04-28 11:01:46.000'
+model size: 156, modeling cost: 0.1678149700164795
+test range: 2017-04-28 11:06:11.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 0.622460850111856, accuracy: 1.0
+
+
+model range: time >= '2017-04-28 11:32:40.000' AND time < '2017-04-28 11:39:30.000'
+model size: 384, modeling cost: 1.9920356273651123
+test range: 2017-04-28 11:06:11.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 0.634521367521365, accuracy: 1.0
+
+
+model range: time >= '2017-04-28 10:43:00.000' AND time < '2017-04-28 10:53:47.000'
+model size: 606, modeling cost: 7.882132530212402
+test range: 2017-04-28 11:06:11.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 0.6202394067796618, accuracy: 1.0
+
+
+=============================================================
+
+
+
+model range: time >= '2017-04-28 10:53:47.000' AND time < '2017-04-28 11:01:46.000'
+model size: 449, modeling cost: 3.234563112258911
+test range: 2017-04-28 11:06:11.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 0.6417525399129232, accuracy: 1.0
+
+
+model range: time >= '2017-04-28 10:59:00.000' AND time < '2017-04-28 11:01:46.000'
+model size: 156, modeling cost: 0.14954805374145508
+test range: 2017-04-28 11:06:11.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 0.622460850111856, accuracy: 1.0
+
+
+model range: time >= '2017-04-28 11:21:35.000' AND time < '2017-04-28 11:26:23.000'
+model size: 270, modeling cost: 0.7563316822052002
+test range: 2017-04-28 11:06:11.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 0.6222661654135336, accuracy: 1.0
+
+
+=============================================================
+
+
+
+model range: time >= '2017-04-28 10:53:47.000' AND time < '2017-04-28 11:01:46.000'
+model size: 449, modeling cost: 3.3181381225585938
+test range: 2017-04-28 10:41:43.000-2017-04-28 10:45:44.000, predict horizon:5
+error: 1.5600660377358515, accuracy: 0.9795918367346939
+
+
+model range: time >= '2017-04-28 10:59:00.000' AND time < '2017-04-28 11:01:46.000'
+model size: 156, modeling cost: 0.16659045219421387
+test range: 2017-04-28 10:41:43.000-2017-04-28 10:45:44.000, predict horizon:5
+error: 1.5464519015659988, accuracy: 0.9795918367346939
+
+
+model range: time >= '2017-04-28 11:21:35.000' AND time < '2017-04-28 11:26:23.000'
+model size: 270, modeling cost: 0.7437210083007812
+test range: 2017-04-28 10:41:43.000-2017-04-28 10:45:44.000, predict horizon:5
+error: 1.5463894736842085, accuracy: 0.9795918367346939
+
+
+=============================================================
+
+
+
+model range: time >= '2017-04-28 10:53:47.000' AND time < '2017-04-28 11:01:46.000'
+model size: 449, modeling cost: 3.275777578353882
+test range: 2017-04-28 10:41:43.000-2017-04-28 10:45:44.000, predict horizon:5
+error: 1.5600660377358515, accuracy: 0.9795918367346939
+
+
+model range: time >= '2017-04-28 10:57:09.000' AND time < '2017-04-28 10:59:00.000'
+model size: 103, modeling cost: 0.04970860481262207
+test range: 2017-04-28 10:41:43.000-2017-04-28 10:45:44.000, predict horizon:5
+error: 2.279895639209859, accuracy: 0.9387755102040817
+
+
+model range: time >= '2017-04-28 10:59:00.000' AND time < '2017-04-28 11:01:46.000'
+model size: 156, modeling cost: 0.1509554386138916
+test range: 2017-04-28 10:41:43.000-2017-04-28 10:45:44.000, predict horizon:5
+error: 1.5464519015659988, accuracy: 0.9795918367346939
+
+
+model range: time >= '2017-04-28 11:01:46.000' AND time < '2017-04-28 11:06:11.000'
+model size: 251, modeling cost: 0.6071059703826904
+test range: 2017-04-28 10:41:43.000-2017-04-28 10:45:44.000, predict horizon:5
+error: 1.557186882933712, accuracy: 1.0
+
+
+model range: time >= '2017-04-28 10:43:00.000' AND time < '2017-04-28 10:53:47.000'
+model size: 606, modeling cost: 8.39439868927002
+test range: 2017-04-28 10:41:43.000-2017-04-28 10:45:44.000, predict horizon:5
+error: 1.5456603107344633, accuracy: 0.9795918367346939
+
+
+=============================================================
+
+
+
+model range: time >= "2017-04-28 10:43:00.000" and time <= "2017-04-28 10:53:47.000"
+model size: 607, modeling cost: 8.682783603668213
+test range: 2017-04-28 11:06:11.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 0.6202394067796618, accuracy: 1.0
+
+
+model range: time >= "2017-04-28 10:53:47.000" and time <= "2017-04-28 10:57:09.000"
+model size: 191, modeling cost: 0.2801060676574707
+test range: 2017-04-28 11:06:11.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 0.6267430453879917, accuracy: 1.0
+
+
+model range: time >= "2017-04-28 10:57:09.000" and time <= "2017-04-28 10:59:00.000"
+model size: 104, modeling cost: 0.04963183403015137
+test range: 2017-04-28 11:06:11.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 1.4413969437197351, accuracy: 1.0
+
+
+model range: time >= "2017-04-28 10:59:00.000" and time <= "2017-04-28 11:01:46.000"
+model size: 157, modeling cost: 0.19307374954223633
+test range: 2017-04-28 11:06:11.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 0.622460850111856, accuracy: 1.0
+
+
+model range: time >= "2017-04-28 11:01:46.000" and time <= "2017-04-28 11:06:11.000"
+model size: 252, modeling cost: 0.6236193180084229
+test range: 2017-04-28 11:06:11.000-2017-04-28 11:09:00.000, predict horizon:5
+error: 0.6274492242595201, accuracy: 1.0
+
+
+=============================================================
+
+
+

@@ -1,0 +1,24 @@
+modeling cost,model size,predict size
+0.0039861202239990234,9,1
+point,error,accuracy
+0,2.5399999999999974,0.9433333333333334
+
+
+modeling cost,model size,predict size
+0.025009632110595703,14,1
+point,error,accuracy
+0,2.5399999999999974,0.9433333333333334
+
+
+modeling cost,model size,predict size
+0.016121864318847656,18,1
+point,error,accuracy
+0,2.5399999999999974,0.9433333333333334
+
+
+modeling cost,model size,predict size
+0.03320932388305664,23,1
+point,error,accuracy
+0,2.5399999999999974,0.9433333333333334
+
+

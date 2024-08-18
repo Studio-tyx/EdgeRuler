@@ -1,0 +1,16 @@
+miss ratio = 0.1
+modeling cost:0.846454381942749
+expect latency:0.125, real latency:0.7, accuracy:0.6333333333333333
+------------------
+modeling cost:0.9045114517211914
+expect latency:0.08333333333333333, real latency:0.9083333333333333, accuracy:0.5333333333333333
+------------------
+modeling cost:0.1870431900024414
+expect latency:0.125, real latency:0.9833333333333333, accuracy:0.49166666666666664
+------------------
+modeling cost:14.968046426773071
+expect latency:0.125, real latency:0.8666666666666667, accuracy:0.5416666666666666
+------------------
+modeling cost:0.0002663135528564453
+expect latency:0.08333333333333333, real latency:0.0, accuracy:1.0
+------------------

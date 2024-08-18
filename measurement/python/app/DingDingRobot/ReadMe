@@ -1,0 +1,25 @@
+# 启动方法：
+# 执行环境为conda的Pytorch
+# 容器Url:10.214.131.230:20108  user:root password:1113
+# 容器端口映射： 22->20108 , 8080 ->20109
+# 1.开启内网穿透
+cd frp_0.21.0_linux_amd64  #进入内网穿透文件夹
+./frpc -c ./frpc.ini       #开启内网穿透，目前使用的是20109端口，可以在frpc.ini内修改
+
+# 2.启动PicBed
+python -u PicBed.py        #remote端输入 10.214.131.230:20109 观看是否得到 helloworld，确认是否启动成功
+# 再输入 47.111.141.133:20109 观看是否得到 helloworld，确认内网穿透是否成功
+
+# 3.启动rtmp_server 服务器
+docker start rtmp_server   #从dockerhub 上直接拉取的镜像文件
+
+# 4.配置网络摄像头
+# 4.1 摄像头配置成功后，查看摄像头的IP地址
+# 4.2 连接到与摄像头所在的网段，在浏览器上输入<摄像头的IP>
+# 4.3 输入账号密码，初始<账号,密码>为<admin,admin>,现在已经改为<admin,eagle402>
+# 4.4 点击网络设置，点击rtmp Publish
+# 4.5 设置rtmp推流地址，这由rtmp server容器决定，当前格式为rtmp://<IP>:11935/live/<自定义字段>
+# 目前设置的地址为:rtmp://10.214.131.230:11935/liv2/cam0
+
+# 5.启动client2
+python -u client2.py
